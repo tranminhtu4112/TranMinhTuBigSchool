@@ -110,5 +110,5 @@ C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\T
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.InitialModel.resources
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.csproj.GenerateResource.cache
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.CreateTableCourse.resources
-C:\Users\ASUS\source\repos\TranMinhTu_BigSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.csproj.AssemblyReference.cache
 C:\Users\ASUS\source\repos\TranMinhTu_BigSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.PolulateCategoryTable.resources
+C:\Users\ASUS\source\repos\TranMinhTu_BigSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.AddNameColumnToApplicationUser.resources

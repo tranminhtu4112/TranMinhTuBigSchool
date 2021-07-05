@@ -7,9 +7,9 @@ namespace TranMinhTu_BIgSchool.Migrations
     {
         public override void Up()
         {
-            Sql("insert into categories (ID, NAME) values (1, 'development')");
-            Sql("insert into categories (ID, NAME) values (2, 'business')");
-            Sql("insert into categories (ID, NAME) values (3, 'marketing')");
+            Sql("insert into Categories (Id, Name) values (1, 'development')");
+            Sql("insert into Categories (Id, Name) values (2, 'business')");
+            Sql("insert into Categories (Id, Name) values (3, 'marketing')");
         }
         
         public override void Down()

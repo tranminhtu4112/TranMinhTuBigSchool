@@ -14,7 +14,10 @@ namespace TranMinhTu_BIgSchool.ViewModels
         [Required]
         [FutureDate]
         public String Date { get; set; }
+        [Required]
+        [ValidTime]
         public String Time { get; set; }
+        [Required]
         public Byte Category { get; set; }
         public IEnumerable<Category> Categories { get; set; }
         public DateTime GetDateTime()

@@ -8,7 +8,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{29F13607-51A1-44E1-A615-CA45DC369261}</ProjectGuid>
+    <ProjectGuid>{52DA9D36-BA83-40EB-A8D8-87E7DC7AD136}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -18,7 +18,7 @@
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44361</IISExpressSSLPort>
+    <IISExpressSSLPort>44380</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -46,18 +46,30 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="NuGet.Frameworks, Version=5.10.0.7240, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\NuGet.Frameworks.5.10.0\lib\net472\NuGet.Frameworks.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.7\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.7\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
@@ -101,9 +113,6 @@
     <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
@@ -170,38 +179,60 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="ChallengeResult.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\Api\CoursesController.cs" />
+    <Compile Include="Controllers\AttendancesController.cs" />
     <Compile Include="Controllers\CoursesController.cs" />
+    <Compile Include="Controllers\FollowingsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="DTOs\AttendanceDto.cs" />
+    <Compile Include="DTOs\FollowingDto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202106280247007_InitialModel.cs" />
-    <Compile Include="Migrations\202106280247007_InitialModel.Designer.cs">
-      <DependentUpon>202106280247007_InitialModel.cs</DependentUpon>
+    <Compile Include="Migrations\202107060422589_InitialModel.cs" />
+    <Compile Include="Migrations\202107060422589_InitialModel.Designer.cs">
+      <DependentUpon>202107060422589_InitialModel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202106280341086_CreateTableCourse.cs" />
-    <Compile Include="Migrations\202106280341086_CreateTableCourse.Designer.cs">
-      <DependentUpon>202106280341086_CreateTableCourse.cs</DependentUpon>
+    <Compile Include="Migrations\202107060435381_CreateTableCourse.cs" />
+    <Compile Include="Migrations\202107060435381_CreateTableCourse.Designer.cs">
+      <DependentUpon>202107060435381_CreateTableCourse.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202106280343310_PolulateCategoryTable.cs" />
-    <Compile Include="Migrations\202106280343310_PolulateCategoryTable.Designer.cs">
-      <DependentUpon>202106280343310_PolulateCategoryTable.cs</DependentUpon>
+    <Compile Include="Migrations\202107060437232_PopulateCategoryTable.cs" />
+    <Compile Include="Migrations\202107060437232_PopulateCategoryTable.Designer.cs">
+      <DependentUpon>202107060437232_PopulateCategoryTable.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202107050408565_AddNameColumnToApplicationUser.cs" />
-    <Compile Include="Migrations\202107050408565_AddNameColumnToApplicationUser.Designer.cs">
-      <DependentUpon>202107050408565_AddNameColumnToApplicationUser.cs</DependentUpon>
+    <Compile Include="Migrations\202107060659338_AddNameColumnToApplicationUser.cs" />
+    <Compile Include="Migrations\202107060659338_AddNameColumnToApplicationUser.Designer.cs">
+      <DependentUpon>202107060659338_AddNameColumnToApplicationUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107060735449_AddAttendance.cs" />
+    <Compile Include="Migrations\202107060735449_AddAttendance.Designer.cs">
+      <DependentUpon>202107060735449_AddAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107060820425_AddFollowingsTable.cs" />
+    <Compile Include="Migrations\202107060820425_AddFollowingsTable.Designer.cs">
+      <DependentUpon>202107060820425_AddFollowingsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107061132059_AddIsCanceledColumnToCourse.cs" />
+    <Compile Include="Migrations\202107061132059_AddIsCanceledColumnToCourse.Designer.cs">
+      <DependentUpon>202107061132059_AddIsCanceledColumnToCourse.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Attendance.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
+    <Compile Include="Models\Following.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\CoursesViewModel.cs" />
     <Compile Include="ViewModels\CourseViewModel.cs" />
     <Compile Include="ViewModels\FutureDate.cs" />
     <Compile Include="ViewModels\ValidTime.cs" />
@@ -262,7 +293,9 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Courses\Create.cshtml" />
+    <Content Include="Views\Courses\CourseForm.cshtml" />
+    <Content Include="Views\Courses\Attending.cshtml" />
+    <Content Include="Views\Courses\Mine.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -281,17 +314,26 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202106280247007_InitialModel.resx">
-      <DependentUpon>202106280247007_InitialModel.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202107060422589_InitialModel.resx">
+      <DependentUpon>202107060422589_InitialModel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202106280341086_CreateTableCourse.resx">
-      <DependentUpon>202106280341086_CreateTableCourse.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202107060435381_CreateTableCourse.resx">
+      <DependentUpon>202107060435381_CreateTableCourse.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202106280343310_PolulateCategoryTable.resx">
-      <DependentUpon>202106280343310_PolulateCategoryTable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202107060437232_PopulateCategoryTable.resx">
+      <DependentUpon>202107060437232_PopulateCategoryTable.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202107050408565_AddNameColumnToApplicationUser.resx">
-      <DependentUpon>202107050408565_AddNameColumnToApplicationUser.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202107060659338_AddNameColumnToApplicationUser.resx">
+      <DependentUpon>202107060659338_AddNameColumnToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107060735449_AddAttendance.resx">
+      <DependentUpon>202107060735449_AddAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107060820425_AddFollowingsTable.resx">
+      <DependentUpon>202107060820425_AddFollowingsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107061132059_AddIsCanceledColumnToCourse.resx">
+      <DependentUpon>202107061132059_AddIsCanceledColumnToCourse.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
@@ -310,9 +352,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>51036</DevelopmentServerPort>
+          <DevelopmentServerPort>50603</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44361/</IISUrl>
+          <IISUrl>https://localhost:44380/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

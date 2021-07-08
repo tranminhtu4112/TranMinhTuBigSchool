@@ -2,21 +2,7 @@
     padding-top: 50px;
     padding-bottom: 20px;
 }
-navbar navbar-inverse navbar-fixed-top {
-    background-color: #d41d50;
-    border-color: #fbf6f6;
-}
-navbar navbar-inverse navbar-fixed-top {
-    background-color: #d41d50;
-    border-color: #fbf6f6;
-}
-.navbar-inverse .navbar-nav > li > a {
-    color: white;
-}
 
-.navbar-inverse .navbar-brand{
-    color: white;
-}
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -34,5 +20,61 @@ navbar navbar-inverse navbar-fixed-top {
 input,
 select,
 textarea {
-    max-width: 280px;
+max-width: 280px;
+}
+.navbar-inverse {
+    background-color: #d41d50;
+    border-color: #fbf6f6;
+}
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: white;
+    }
+
+    .navbar-inverse .navbar-brand {
+        color: white;
+    }
+
+.course {
+    list-style: none;
+}
+
+    .course > li {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+        .course > li .date {
+            text-align: center;
+            background-color: #d41d50;
+            color: white;
+            width: 60px;
+            border-radius: 8px;
+            float: left;
+        }
+
+.coures > li .details {
+    position: absolute;
+    top: 0;
+    left: 70px;
+    float: left;
+}
+
+.row {
+    width: 100px;
+    height: 100px;
+}
+
+#loginForm {
+    width: 500px;
+}
+
+.course > li .action {
+    display: none;
+    left: 70px;
+    position: absolute;
+}
+
+.course > li:hover .action {
+    display: block;
 }

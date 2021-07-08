@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Web;
@@ -13,10 +13,10 @@ namespace TranMinhTu_BIgSchool.ViewModels
         {
             DateTime dateTime;
             var isValid = DateTime.TryParseExact(Convert.ToString(value),
-                            "HH:mm",
-                            CultureInfo.CurrentCulture,
-                            DateTimeStyles.None,
-                            out dateTime);
+                "HH:mm",
+                CultureInfo.CurrentCulture,
+                DateTimeStyles.None,
+                out dateTime);
             return isValid;
         }
     }

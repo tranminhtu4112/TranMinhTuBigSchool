@@ -1,3 +1,5 @@
+C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\TranMinhTu_BIgSchool.dll.config
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\TranMinhTu_BIgSchool.dll
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\TranMinhTu_BIgSchool.pdb
@@ -70,7 +72,10 @@ C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\Microso
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\Newtonsoft.Json.dll
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\NuGet.Frameworks.dll
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\Owin.dll
+C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.Net.Http.Formatting.dll
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.Web.Helpers.dll
+C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.Web.Http.dll
+C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.Web.Http.WebHost.dll
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.Web.Mvc.dll
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.Web.Optimization.dll
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.Web.Razor.dll
@@ -78,7 +83,11 @@ C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.Web.WebPages.dll
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.Web.WebPages.Razor.dll
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\WebGrease.dll
+C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\Newtonsoft.Json.xml
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\NuGet.Frameworks.xml
+C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.Net.Http.Formatting.xml
+C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.Web.Http.xml
+C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.Web.Http.WebHost.xml
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.Web.Helpers.xml
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.Web.Mvc.xml
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.Web.Optimization.xml
@@ -86,7 +95,6 @@ C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.Web.WebPages.xml
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.Web.WebPages.Deployment.xml
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\System.Web.WebPages.Razor.xml
-C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\Newtonsoft.Json.xml
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\Antlr3.Runtime.pdb
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\EntityFramework.xml
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\EntityFramework.SqlServer.xml
@@ -103,12 +111,13 @@ C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\Microso
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.csproj.CopyComplete
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.dll
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.pdb
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.InitialModel.resources
-C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.csproj.GenerateResource.cache
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.CreateTableCourse.resources
-C:\Users\ASUS\source\repos\TranMinhTu_BigSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.PolulateCategoryTable.resources
-C:\Users\ASUS\source\repos\TranMinhTu_BigSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.AddNameColumnToApplicationUser.resources
+C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.PopulateCategoryTable.resources
+C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.AddNameColumnToApplicationUser.resources
+C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.AddAttendance.resources
+C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.AddFollowingsTable.resources
+C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.AddIsCanceledColumnToCourse.resources

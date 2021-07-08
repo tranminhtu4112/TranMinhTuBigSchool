@@ -1,4 +1,3 @@
-C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.csproj.GenerateResource.cache
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\TranMinhTu_BIgSchool.dll.config
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\bin\TranMinhTu_BIgSchool.dll
@@ -115,9 +114,9 @@ C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\T
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.dll
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.pdb
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.InitialModel.resources
+C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.csproj.GenerateResource.cache
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.CreateTableCourse.resources
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.PopulateCategoryTable.resources
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.AddNameColumnToApplicationUser.resources
-C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.AddAttendance.resources
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.AddFollowingsTable.resources
-C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.AddIsCanceledColumnToCourse.resources
+C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.AddFollowingsTable1.resources

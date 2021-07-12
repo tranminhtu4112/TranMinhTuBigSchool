@@ -120,3 +120,4 @@ C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\T
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.AddNameColumnToApplicationUser.resources
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.AddFollowingsTable.resources
 C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.Migrations.AddFollowingsTable1.resources
+C:\Users\ASUS\source\repos\TranMinhTu_BIgSchool\TranMinhTu_BIgSchool\obj\Debug\TranMinhTu_BIgSchool.csproj.AssemblyReference.cache

@@ -9,7 +9,7 @@ namespace TranMinhTu_BIgSchool.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(TranMinhTu_BIgSchool.Models.ApplicationDbContext context)
